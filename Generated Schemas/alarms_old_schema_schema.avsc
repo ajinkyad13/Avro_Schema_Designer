@@ -1,0 +1,203 @@
+{
+  "name": "MyClass",
+  "type": "record",
+  "namespace": "com.acme.avro",
+  "fields": [
+    {
+      "name": "queryResponse",
+      "type": {
+        "name": "queryResponse",
+        "type": "record",
+        "fields": [
+          {
+            "name": "last",
+            "type": "string"
+          },
+          {
+            "name": "first",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "responseType",
+            "type": "string"
+          },
+          {
+            "name": "requestUrl",
+            "type": "string"
+          },
+          {
+            "name": "rootUrl",
+            "type": "string"
+          },
+          {
+            "name": "entity",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "entity_record",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "dtoType",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "url",
+                    "type": "string"
+                  },
+                  {
+                    "name": "alarmsDTO",
+                    "type": {
+                      "name": "alarmsDTO",
+                      "type": "record",
+                      "fields": [
+                        {
+                          "name": "displayName",
+                          "type": "string"
+                        },
+                        {
+                          "name": "id",
+                          "type": "string"
+                        },
+                        {
+                          "name": "acknowledgementStatus",
+                          "type": "boolean"
+                        },
+                        {
+                          "name": "alarmFoundAt",
+                          "type": "int",
+                          "logicalType": "date"
+                        },
+                        {
+                          "name": "alarmId",
+                          "type": "int"
+                        },
+                        {
+                          "name": "applicationSpecificAlarmID",
+                          "type": "string"
+                        },
+                        {
+                          "name": "category",
+                          "type": {
+                            "name": "category",
+                            "type": "record",
+                            "fields": [
+                              {
+                                "name": "ordinal",
+                                "type": "int"
+                              },
+                              {
+                                "name": "value",
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "name": "condition",
+                          "type": {
+                            "name": "condition",
+                            "type": "record",
+                            "fields": [
+                              {
+                                "name": "ordinal",
+                                "type": "int"
+                              },
+                              {
+                                "name": "value",
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "name": "correlationType",
+                          "type": "string"
+                        },
+                        {
+                          "name": "deviceName",
+                          "type": "string"
+                        },
+                        {
+                          "name": "deviceTimestamp",
+                          "type": "int",
+                          "logicalType": "date"
+                        },
+                        {
+                          "name": "lastUpdatedAt",
+                          "type": "int",
+                          "logicalType": "date"
+                        },
+                        {
+                          "name": "message",
+                          "type": "string"
+                        },
+                        {
+                          "name": "nttyaddrss7_address",
+                          "type": "string"
+                        },
+                        {
+                          "name": "rootCauseId",
+                          "type": "int"
+                        },
+                        {
+                          "name": "severity",
+                          "type": "string"
+                        },
+                        {
+                          "name": "source",
+                          "type": "string"
+                        },
+                        {
+                          "name": "srcObjectBusinessKey",
+                          "type": "string"
+                        },
+                        {
+                          "name": "srcObjectClassId",
+                          "type": "int"
+                        },
+                        {
+                          "name": "srcObjectDisplayName",
+                          "type": "string"
+                        },
+                        {
+                          "name": "srcObjectId",
+                          "type": "int"
+                        },
+                        {
+                          "name": "tableName",
+                          "type": "string"
+                        },
+                        {
+                          "name": "timeStamp",
+                          "type": "int",
+                          "logicalType": "date"
+                        },
+                        {
+                          "name": "wirelessSpecificAlarmId",
+                          "type": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
