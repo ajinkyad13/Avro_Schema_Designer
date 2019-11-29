@@ -23,7 +23,7 @@ import wx.stc as stc
 class MyFrame1 ( wx.Frame ):
     
     def __init__( self, parent):
-        wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = 'N:1 Schema Designer 2.0', pos = wx.DefaultPosition, size = wx.Size( 790,600 ), style = wx.MINIMIZE_BOX|wx.SYSTEM_MENU|
+        wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = 'N:1 Schema Designer 1.2.0', pos = wx.DefaultPosition, size = wx.Size( 790,600 ), style = wx.MINIMIZE_BOX|wx.SYSTEM_MENU|
                   wx.CAPTION|wx.CLOSE_BOX|wx.CLIP_CHILDREN)
         #wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL
         

@@ -18,7 +18,7 @@ import json
 class MyFrame1 ( wx.Frame ):
     def __init__(self, parent, title, pos, size):
         
-        wx.Frame.__init__(self,parent, title='N:1 Schema Designer 2.0',pos=(100,50), size=(620,775), style = wx.MINIMIZE_BOX|wx.SYSTEM_MENU|
+        wx.Frame.__init__(self,parent, title='N:1 Schema Designer 1.2.0',pos=(100,50), size=(620,775), style = wx.MINIMIZE_BOX|wx.SYSTEM_MENU|
                   wx.CAPTION|wx.CLOSE_BOX|wx.CLIP_CHILDREN)
 
         self.SetIcon(wx.Icon('Extras/logo.ico'))
