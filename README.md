@@ -1,4 +1,4 @@
-# Avro_Schema_Designer
+# Avro_Schema_Designer  
 
 **Version 1.2.0**
 A complete tool to create Avro Schema Files from JSON and CSV files and validate them. User can create Avro Schema files manually as well.
